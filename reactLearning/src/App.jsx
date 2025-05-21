@@ -8,10 +8,10 @@ function App() {
   ]);
 
   return (
-    <>
+    <div className="flex p-10 w-screen h-screen bg-gray-700">
       <Create todos={todos} setTodos={setTodos} />
       <Read todos={todos} setTodos={setTodos} />
-    </>
+    </div>
   );
 }
 
